@@ -1,5 +1,17 @@
 # Changelog
 
+## Canasvieiras · versão validada — 13/10/2026
+
+- Todos os itens passam a DEFINIDO. Não há mais A VALIDAR nem PENDENTE, porque o book vai para a assinatura do administrador de obras.
+- Regra aplicada: prevalecem o Briefing e a imagem de lançamento, e o executivo replica as texturas do lançamento. Decisões:
+  - **Fachada:** brises em PVC preto e Oak, guarda-corpo de vidro com perfil "U" inox e pergolado metálico preto. EV3/EV4 com peças pretas e EV1 com a borda "pixelada" da imagem. O ripado horizontal das janelas é executado. Muro na cor Seazone com logo e nome iluminados. REV-05 e REV-08 seguem o tom da imagem.
+  - **Interiores das áreas comuns:**
+    - Paredes: recepção em cimento queimado tom areia, corredores "Outono Gelado" e rooftop cinza médio.
+    - Portas e rodapés PRETOS.
+    - Rooftop externo: piscina esverdeada 20×20, balanço fixado na laje, deck em porcelanato amadeirado 120×20 antiderrapante.
+    - Marcenaria em MDF Savana e Cinza Sagrado.
+- Páginas de pendências trocadas por "Pontos de atenção na obra".
+
 ## Canasvieiras Spot migrado para o template v3.1 — 13/10/2026
 
 - Novo book com 27 slides: capa, contextualização, como usar, **01 Fachada** (moodboard, paleta, leitura geral, texturas T01–T12, vistas de esquina, posterior e térreo, pendências), **02 Interiores das áreas comuns** (conceito × situação, recepção e corredores, rooftop interno e externo, pendências), **03 Materiais de interiores das áreas comuns** (T13–T24) e encerramento.

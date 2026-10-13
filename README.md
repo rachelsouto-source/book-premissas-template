@@ -9,6 +9,12 @@ O template anterior (Novo Campeche Spot III) fica em [`template/legacy/`](templa
 
 ## Regras de conteúdo
 
+**O book é um documento validado.** Ele vai para o administrador de obras assinar, então nenhum item sai como A VALIDAR, PENDENTE ou A COTAR: todo item é **DEFINIDO**, e cada divergência entre as fontes aparece já como decisão registrada.
+
+- **Prevalecem o Briefing de Projeto e a imagem de lançamento.** O executivo deve replicar as cores e texturas do lançamento (mesma lógica do Cachoeira Spot). Onde o executivo diverge, o book indica "compatibilizar o executivo" ou "ajustar antes da compra".
+- As páginas de pendências viram **"Pontos de atenção na obra"**, com o que a obra precisa observar, tudo como DEFINIDO.
+- Canasvieiras: **portas e rodapés das áreas comuns PRETOS**, como na imagem de lançamento (decisão de 13/10/2026).
+
 **Entra:** imagens externas de lançamento, materiais, cores, texturas, imagens e o comparativo **lançamento × executivo**, além dos interiores das **áreas comuns** (recepção, corredores, rooftop).
 
 **Não entra:**
