@@ -1,5 +1,12 @@
 # Changelog
 
+## v3.1 — 13/10/2026 (comentário Bianca)
+
+- **Capa:** imagem interna de unidade substituída por imagem externa (render de lançamento 002 · acesso), mesmo enquadramento.
+- **Slide 2:** objetivo passa a falar em "premissas de fachada e de **interiores das áreas comuns**"; rodapé: "Foco: imagens externas, texturas e interiores das áreas comuns. **Interiores das unidades**, índices urbanísticos, áreas e custos não fazem parte deste Book."
+- **Slide 3:** seção 02 renomeada de "Áreas comuns" para "**Interiores das áreas comuns**" (03 já era "Materiais de interiores das áreas comuns").
+- Alterações feitas direto no Google Slides da v3 (mesmo link) e re-exportadas para este repositório.
+
 ## v3 — 13/10/2026 (Campeche Spot, rev. Raquel Tavares)
 
 Template passa a ser o **Book do Campeche Spot** (`CAMPECHE SPOT - Book de Premissas_MOODBOARD_rev13-10-2026_v3`).

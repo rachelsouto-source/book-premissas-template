@@ -12,7 +12,7 @@ O template anterior (Novo Campeche Spot III) fica em [`template/legacy/`](templa
 **Entra:** imagens externas de lançamento, materiais, cores, texturas, imagens e o comparativo **lançamento × executivo**, além dos interiores das **áreas comuns** (recepção, corredores, rooftop).
 
 **Não entra:**
-- **Interiores de unidades** (nenhuma unidade — seção removida na v3)
+- **Interiores de unidades** (nenhuma unidade — seção removida na v3), nem em imagens soltas (capa, mosaicos, aberturas de seção)
 - Índices urbanísticos
 - Áreas das unidades (m²), dimensões ou reduções ("hall menor", "piscina reduzida")
 - Custos / orçamento
@@ -25,9 +25,9 @@ Nenhuma informação inventada: tudo vem das fontes do Spot (imagens de lançame
 
 | # | Seção | Conteúdo |
 |---|---|---|
-| 1 | Capa | Nome do Spot · "Moodboard de premissas" · Lançamento × Executivo · Fachada · Interiores |
-| 2 | Contextualização | Objetivo · Veja / Entenda / Confira · 7 perguntas que Obras deve conseguir responder · regra do material e fontes |
-| 3 | Como usar | Números na imagem · amostra circular · código do executivo · status **DEFINIDO / A VALIDAR / PENDENTE** · índice das seções |
+| 1 | Capa | Nome do Spot · "Moodboard de premissas" · Lançamento × Executivo · Fachada · Interiores. Mosaico só com **imagens externas e de áreas comuns** — nunca imagem interna de unidade |
+| 2 | Contextualização | Objetivo ("premissas de fachada e de **interiores das áreas comuns**") · Veja / Entenda / Confira · 7 perguntas que Obras deve conseguir responder (nº 5: conceito de interiores **das áreas comuns**) · regra do material e fontes (rodapé: "Interiores das unidades, índices urbanísticos, áreas e custos não fazem parte deste Book") |
+| 3 | Como usar | Números na imagem · amostra circular · código do executivo · status **DEFINIDO / A VALIDAR / PENDENTE** · índice: 01 Fachada · 02 **Interiores das áreas comuns** · 03 **Materiais de interiores das áreas comuns** |
 | 4–13 | **01 Fachada** | Imagens de lançamento (moodboard) · paleta de materiais · leitura geral com legenda numerada · mapa de texturas **T01–T12** (4 por slide: Onde / Especificação / Atenção na obra) · vistas com marcação e especificação (frontal, lateral, acesso) |
 | 14–32 | **02 Interiores · áreas comuns** | Conceito Seazone × situação registrada · decisões de projeto (antes × agora) · revisões (ex.: nova recepção) com moodboard, itens com QTD e status (A VALIDAR / A COTAR / DEFINIDO / PENDENTE), pendências · referência de lançamento · fichas de premissas (recepção, corredores, rooftop interno e externo) |
 | 33–37 | **03 Materiais de interiores** | Mapa de materialidade **T13–T28** para compra e aprovação de amostras, incluindo slide de **MDFs e cores de metal** (T25–T28) |
