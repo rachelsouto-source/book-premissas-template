@@ -167,7 +167,7 @@ S.P(126, F04, (0.45, 0.5)); label_w(S, 127, "04 · TÉRREO")
 S.P(128, t(3)); label_w(S, 129, "ROOFTOP")
 for sid, (a, b) in zip([132, 134, 136, 138, 140], [
         ("Volume central amadeirado", "porcelanato Boreal Natural (REV-08) com brises verticais de correr nas janelas"),
-        ("Volumes laterais", "cinza escuro (REV-06) e branco (REV-07) com floreiras nas bordas de laje"),
+        ("Volumes laterais", "cinza escuro (REV-06) e claro Papel de Presente (REV-07) com floreiras nas bordas de laje"),
         ("Brises e elementos vazados", "brises pretos e Oak (BRI-01), painéis em grelha (EV3/EV4) e cobogó sobre as lojas (EV1)"),
         ("Base e acesso", "lojas com vitrines, brises Oak no mezanino e totem iluminado CANASVIEIRAS SPOT no muro"),
         ("Coroamento e rooftop", "guarda-corpo de vidro, pergolado preto, piscina e letreiro SEAZONE no reservatório")]):
@@ -177,13 +177,13 @@ for sid, (a, b) in zip([132, 134, 136, 138, 140], [
 S = B.dup(6)
 pal = [(151, 152, 153, "REV-08", "Porcelanato Boreal Natural", "volume central e montantes", F01, (0.43, 0.252), 0.05),
        (154, 155, 156, "REV-06", "Cinza escuro Rock'n Roll", "volumes laterais e bases", F02, (0.60, 0.34), 0.07),
-       (157, 158, 159, "REV-07", "Branco Puro", "volumes claros e reservatório", F02, (0.67, 0.62), 0.15),
+       (157, 158, 159, "REV-07", "Papel de Presente Suvinil B208", "volumes claros e reservatório", F02, (0.67, 0.62), 0.15),
        (160, 161, 162, "REV-05", "Cinza ref. Nanquim", "faixas de laje e marquise", F05, (0.39, 0.66), 0.07),
        (163, 164, 165, "BRI-01", "Brises preto e Oak", "janelas, térreo e mezanino", F05, (0.335, 0.75), 0.07),
        (166, 167, 168, "EV1–EV4", "Elemento vazado 40×40", "lojas e painéis laterais", F01, (0.72, 0.70), 0.09)]
 for pic, lab, txt, code, a, b, img, foc, hf in pal:
     S.P(pic, img, foc, hf); S.T(lab, code); S.T(txt, a, b)
-S.T(170, "COMO LER", "Fachada = volume central amadeirado (REV-08) + volumes laterais cinza escuro (REV-06) e branco "
+S.T(170, "COMO LER", "Fachada = volume central amadeirado (REV-08) + volumes laterais cinza escuro (REV-06) e Papel de Presente "
                      "(REV-07) + faixas cinza (REV-05) + brises pretos e Oak + elementos vazados + esquadria preta + "
                      "floreiras. Detalhe de cada material nas páginas de texturas T01–T12.")
 
@@ -193,18 +193,18 @@ win = S.P(181, F01)
 S.T(182, "LANÇAMENTO · 01 (FRONTAL)")
 place_markers(S, 181, win, list(range(183, 193)), old_markers(4))
 S.T(193, "A fachada é lida em quatro camadas: volume central em porcelanato amadeirado (REV-08) com brises verticais "
-         "de correr; volumes laterais em cinza escuro (REV-06) e branco (REV-07) com floreiras e painéis em elemento "
+         "de correr; volumes laterais em cinza escuro (REV-06) e Papel de Presente (REV-07) com floreiras e painéis em elemento "
          "vazado; base do térreo e mezanino com brises Oak, elemento vazado sobre as lojas e totem de acesso; "
          "coroamento com guarda-corpo de vidro, pergolado e letreiro SEAZONE.")
-leg = [("Letreiro SEAZONE no coroamento", "letras-caixa iluminadas · não detalhado no executivo"),
-       ("Pergolado da cobertura", "AC-02 pergolado em alumínio"),
-       ("Guarda-corpo dos terraços", "GC-01 alumínio / vidro"),
+leg = [("Letreiro SEAZONE no coroamento", "letras-caixa iluminadas, como na imagem"),
+       ("Pergolado da cobertura", "estrutura metálica preta (AC-02)"),
+       ("Guarda-corpo dos terraços", "vidro incolor com perfil U inox"),
        ("Volume central amadeirado", "REV-08 porcelanato Boreal Natural 20×120"),
-       ("Brises verticais das janelas", "BRI-01 brise de correr 75×25 · preto e Oak"),
-       ("Ripado horizontal nas janelas", "só no render · não consta nas elevações"),
-       ("Painéis laterais em grelha", "EV3 elemento vazado de concreto 40×40"),
+       ("Brises verticais das janelas", "BRI-01 de correr em PVC · preto e Oak"),
+       ("Ripado horizontal nas janelas", "executar no peitoril, como na imagem"),
+       ("Painéis laterais em grelha", "EV3 elemento vazado 40×40 · peças pretas"),
        ("Floreiras", "AC-01 vaso · floreira Vasoflex"),
-       ("Brises amadeirados do mezanino", "Lesco Green Brise · Oak"),
+       ("Brises amadeirados do mezanino", "BRI-01 em PVC cor Oak"),
        ("Elemento vazado sobre as lojas", "EV1 concreto 40×40")]
 for sid, (a, b) in zip(range(196, 215, 2), leg):
     S.T(sid, a, b)
@@ -223,9 +223,9 @@ tex = [
          "Pintura acrílica descrita como \"cinza claro\", ref. cor Nanquim (Suvinil).",
          "Seguir o tom cinza médio da imagem de lançamento; aprovar painel-teste na fachada antes da compra.",
          F05, (0.39, 0.695), 0.035),
-        ("T03", "REV-07 · Branco Puro", "Volumes laterais claros, platibanda da cobertura e caixa do reservatório.",
-         "Pintura acrílica, ref. Branco Puro (Suvinil).",
-         "Reservatório com acabamento externo idem fachada (memorial 30.4.3).",
+        ("T03", "REV-07 · Papel de Presente", "Volumes laterais claros, platibanda da cobertura e caixa do reservatório.",
+         "Pintura acrílica, ref. cor Papel de Presente Suvinil (B208), mesmo tom do Cachoeira Spot.",
+         "Executivo indica Branco Puro: compatibilizar para Papel de Presente antes da compra (fachada, platibanda e reservatório).",
          F02, (0.67, 0.62), 0.08),
         ("T04", "REV-08 · Porcelanato amadeirado", "Volume central das fachadas frontal e posterior e montantes entre janelas.",
          "Porcelanato retificado 20×120, Boreal Natural (Portobello) · memorial 10.1 e 30.3.5.",
@@ -236,7 +236,7 @@ tex = [
          "Brise de correr em PVC conforme detalhamento arquitetônico (briefing), cor Oak como na imagem de lançamento.",
          "Executivo indica alumínio Lesco: compatibilizar para PVC antes da compra (prancha 28).",
          F05, (0.335, 0.75), 0.05),
-        ("T06", "BRI-01 · Brise alumínio preto", "Janelas dos pavimentos 2, 3 e 4 e do mezanino.",
+        ("T06", "BRI-01 · Brise preto", "Janelas dos pavimentos 2, 3 e 4 e do mezanino.",
          "Brise de correr em PVC preto (briefing) · trilho BRI-02 preto · BRI-03 veneziana preta nas condensadoras.",
          "Tipos mudam por pavimento: seguir o quadro da prancha 28, com material compatibilizado para PVC.",
          F01, (0.365, 0.36), 0.05),
@@ -312,7 +312,7 @@ vista_items(S, V12, [
     ("Ripado horizontal", "Executar no peitoril das janelas, como na imagem · incluir nas elevações", V),
     ("Brises Oak do térreo", "Brise 3 e Brise 4 Oak no pavimento 1", D),
     ("Volume escuro lateral", "REV-06 cinza escuro, ref. Rock'n Roll (Suvinil)", D),
-    ("Montantes brancos", "REV-07 Branco Puro (Suvinil)", D)])
+    ("Montantes claros", "REV-07 Papel de Presente Suvinil (B208)", D)])
 S.P(398, F01, (0.43, 0.252), 0.05)
 S.P(399, F02, (0.60, 0.34), 0.05)
 S.P(400, F02, (0.67, 0.62), 0.08)

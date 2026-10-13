@@ -13,6 +13,7 @@ O template anterior (Novo Campeche Spot III) fica em [`template/legacy/`](templa
 
 - **Prevalecem o Briefing de Projeto e a imagem de lançamento.** O executivo deve replicar as cores e texturas do lançamento (mesma lógica do Cachoeira Spot). Onde o executivo diverge, o book indica "compatibilizar o executivo" ou "ajustar antes da compra".
 - As páginas de pendências viram **"Pontos de atenção na obra"**, com o que a obra precisa observar, tudo como DEFINIDO.
+- **Fachada externa nunca em Branco Puro** (suja muito): em todos os empreendimentos o branco/claro de fachada é **Papel de Presente Suvinil (B208)**, o mesmo tom do Cachoeira Spot. Onde o executivo indicar Branco Puro, o book manda compatibilizar.
 - Canasvieiras: **portas e rodapés das áreas comuns PRETOS**, como na imagem de lançamento (decisão de 13/10/2026).
 
 **Entra:** imagens externas de lançamento, materiais, cores, texturas, imagens e o comparativo **lançamento × executivo**, além dos interiores das **áreas comuns** (recepção, corredores, rooftop).

@@ -1,5 +1,10 @@
 # Changelog
 
+## Regra geral: Papel de Presente no lugar de Branco Puro — 13/10/2026
+
+- Nenhum empreendimento usa Branco Puro na fachada externa (suja muito). O claro da fachada passa a ser **Papel de Presente Suvinil (B208)**, como no Cachoeira Spot.
+- Canasvieiras: REV-07 alterado na paleta, na textura T03, na leitura geral e na vista posterior. A legenda da leitura geral foi alinhada às decisões validadas (brises em PVC, guarda-corpo de vidro com perfil "U" inox, pergolado metálico preto, ripado executado).
+
 ## Canasvieiras · versão validada — 13/10/2026
 
 - Todos os itens passam a DEFINIDO. Não há mais A VALIDAR nem PENDENTE, porque o book vai para a assinatura do administrador de obras.
