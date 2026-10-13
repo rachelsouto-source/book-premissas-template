@@ -34,7 +34,7 @@ Nenhuma informação inventada: tudo vem das fontes do Spot (imagens de lançame
 |---|---|---|
 | 1 | Capa | Nome do Spot · "Moodboard de premissas" · Lançamento × Executivo · Fachada · Interiores. Mosaico só com **imagens externas e de áreas comuns** — nunca imagem interna de unidade |
 | 2 | Contextualização | Objetivo ("premissas de fachada e de **interiores das áreas comuns**") · Veja / Entenda / Confira · 7 perguntas que Obras deve conseguir responder (nº 5: conceito de interiores **das áreas comuns**) · regra do material e fontes (rodapé: "Interiores das unidades, índices urbanísticos, áreas e custos não fazem parte deste Book") |
-| 3 | Como usar | Números na imagem · amostra circular · código do executivo · status **DEFINIDO / A VALIDAR / PENDENTE** · índice: 01 Fachada · 02 **Interiores das áreas comuns** · 03 **Materiais de interiores das áreas comuns** |
+| 3 | Como usar | Números na imagem · amostra circular · código do executivo · status **DEFINIDO** (book validado) · índice: 01 Fachada · 02 **Interiores das áreas comuns** · 03 **Materiais de interiores das áreas comuns** |
 | 4–13 | **01 Fachada** | Imagens de lançamento (moodboard) · paleta de materiais · leitura geral com legenda numerada · mapa de texturas **T01–T12** (4 por slide: Onde / Especificação / Atenção na obra) · vistas com marcação e especificação (frontal, lateral, acesso) |
 | 14–32 | **02 Interiores · áreas comuns** | Conceito Seazone × situação registrada · decisões de projeto (antes × agora) · revisões (ex.: nova recepção) com moodboard, itens com QTD e status (A VALIDAR / A COTAR / DEFINIDO / PENDENTE), pendências · referência de lançamento · fichas de premissas (recepção, corredores, rooftop interno e externo) |
 | 33–37 | **03 Materiais de interiores** | Mapa de materialidade **T13–T28** para compra e aprovação de amostras, incluindo slide de **MDFs e cores de metal** (T25–T28) |
@@ -57,6 +57,30 @@ Navy `#00143D` · coral `#FC6058` · Arial · barra de cabeçalho com logo · ro
 |---|---|---|---|
 | Campeche Spot | Google Slides (link acima) | 38 | 13/10/2026 |
 | Canasvieiras Spot | [`books/CANASVIEIRAS_SPOT_Book_de_Premissas_v3.pptx`](books/) | 27 | 13/10/2026 |
+
+## Books a migrar (`books/legado/`)
+
+Os books dos outros Spots, ainda no formato antigo (template Novo Campeche Spot III, set/2026), estão em [`books/legado/`](books/legado/). Eles servem de **fonte de conteúdo** para a migração: textos, comparativos e amostras já levantados a partir das fontes de cada Spot.
+
+Atenção: os books legados **ainda não seguem as regras atuais**. Podem ter itens A VALIDAR ou PENDENTE, Branco Puro, interiores de unidades e áreas ou dimensões. Ao migrar, aplicar todas as regras desta página.
+
+| Spot | Arquivo legado | Situação |
+|---|---|---|
+| Barra Spot | `BARRA_SPOT_Book_de_Premissas_legado.pptx` | a migrar |
+| Batel Spot | `BATEL_SPOT_Book_de_Premissas_legado.pptx` | a migrar |
+| Bonito Spot | `BONITO_SPOT_Book_de_Premissas_legado.pptx` | a migrar |
+| Cachoeira Beach Spot | `CACHOEIRA_BEACH_SPOT_Book_de_Premissas_legado.pptx` | a migrar |
+| Cachoeira Spot | `CACHOEIRA_SPOT_Book_de_Premissas_legado.pptx` | a migrar |
+| Campeche Spot | `CAMPECHE_SPOT_Book_de_Premissas_legado.pptx` | migrado (v3 = template) |
+| Canasvieiras Spot | `CANASVIEIRAS_SPOT_Book_de_Premissas_legado.pptx` | migrado (v3) |
+| Ilha do Campeche Spot II | `ILHA_DO_CAMPECHE_SPOT_II_Book_de_Premissas_legado.pptx` | a migrar |
+| Imbassaí Spot | `IMBASSAI_SPOT_Book_de_Premissas_legado.pptx` | a migrar |
+| Itacaré Spot | `ITACARE_SPOT_Book_de_Premissas_legado.pptx` | a migrar |
+| Marista 144 Spot | `MARISTA_144_SPOT_Book_de_Premissas_legado.pptx` | a migrar |
+| Meireles Spot | `MEIRELES_SPOT_Book_de_Premissas_legado.pptx` | a migrar |
+| Rosa Norte Spot | `ROSA_NORTE_SPOT_Book_de_Premissas_legado.pptx` | a migrar |
+| Salvador Spot | `SALVADOR_SPOT_Book_de_Premissas_legado.pptx` | a migrar |
+| Santo Antônio Spot | `SANTO_ANTONIO_SPOT_Book_de_Premissas_legado.pptx` | a migrar |
 
 ## Gerador (`scripts/`)
 
