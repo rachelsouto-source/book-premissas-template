@@ -44,4 +44,23 @@ Navy `#00143D` · coral `#FC6058` · Arial · barra de cabeçalho com logo · ro
 3. Preencha texturas, vistas e fichas só com o que está nas fontes do Spot.
 4. **Não** crie slides de unidades. Confira o checklist de "Não entra" antes de entregar.
 
+## Books já migrados para o template v3
+
+| Spot | Arquivo | Slides | Data |
+|---|---|---|---|
+| Campeche Spot | Google Slides (link acima) | 38 | 13/10/2026 |
+| Canasvieiras Spot | [`books/CANASVIEIRAS_SPOT_Book_de_Premissas_v3.pptx`](books/) | 27 | 13/10/2026 |
+
+## Gerador (`scripts/`)
+
+- `tplkit.py`: clona slides do template v3 e troca textos e imagens mantendo a formatação. Recorta as imagens no tamanho exato do quadro, reposiciona os marcadores numerados e aplica os selos de status (DEFINIDO / A VALIDAR / PENDENTE / A COTAR).
+- `build_canasvieiras.py`: conteúdo do Canasvieiras (base para os próximos Spots: copiar, trocar caminhos, textos e recortes).
+- `render.ps1`: exporta os slides em PNG via PowerPoint para conferência visual.
+
+```
+py scripts/build_canasvieiras.py "saida.pptx"
+```
+
+Requisitos: Python com `python-pptx` e `Pillow`; as imagens de origem ficam nas pastas locais de cada Spot (não versionadas aqui).
+
 Histórico de mudanças: [CHANGELOG.md](CHANGELOG.md).

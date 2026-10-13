@@ -1,5 +1,11 @@
 # Changelog
 
+## Canasvieiras Spot migrado para o template v3.1 — 13/10/2026
+
+- Novo book com 27 slides: capa, contextualização, como usar, **01 Fachada** (moodboard, paleta, leitura geral, texturas T01–T12, vistas de esquina, posterior e térreo, pendências), **02 Interiores das áreas comuns** (conceito × situação, recepção e corredores, rooftop interno e externo, pendências), **03 Materiais de interiores das áreas comuns** (T13–T24) e encerramento.
+- Saíram do book antigo: interiores e materiais de unidades (Cetim Bianco, MDF Cinza Urban, reforço de TV, jacuzzi, copa), áreas em m² e quadros de quantidade. As tabelas de comparação lançamento × executivo e briefing × executivo agora aparecem como status por item nas vistas, nas fichas e nas páginas de pendências.
+- Gerador em `scripts/` para replicar nos próximos Spots.
+
 ## v3.1 — 13/10/2026 (comentário Bianca)
 
 - **Capa:** imagem interna de unidade substituída por imagem externa (render de lançamento 002 · acesso), mesmo enquadramento.
